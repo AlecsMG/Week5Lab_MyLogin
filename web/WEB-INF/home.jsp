@@ -12,6 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home Page</h1>
+        Hello User.
+        <input type="Submit" value="logout">
     </body>
 </html>

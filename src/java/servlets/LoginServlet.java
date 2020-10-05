@@ -29,12 +29,11 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        //to do
+        
+        
+        
+        getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").
+                forward(request, response);
     }
-
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
 
 }
