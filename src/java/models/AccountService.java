@@ -19,8 +19,8 @@ public class AccountService {
         
         User user = new User(username, password);
         
-        if ((user.username.equals("abe") || user.username.equals("barb")) && user.password.equals("password")) {
-            user.password = null;
+        if ((user.getUsername().equals("abe") || user.getUsername().equals("barb")) && user.getPassword().equals("password")) {
+            user.setPassword(null);
             return user; 
         }
         
