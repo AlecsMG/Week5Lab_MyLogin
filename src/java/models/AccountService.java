@@ -4,9 +4,6 @@
  * and open the template in the editor.
  */
 package models;
-
-import java.io.Serializable;
-
 /**
  *
  * @author 831690
