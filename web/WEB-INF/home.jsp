@@ -13,7 +13,11 @@
     </head>
     <body>
         <h1>Home Page</h1>
-        Hello User.
-        <input type="Submit" value="logout">
+        Hello ${user.username}.
+        <br>
+        <form action="login" method="get" >
+            <input type="submit" value="Logout">
+            <input type="hidden" name="logout" value="true">
+        </form>
     </body>
 </html>

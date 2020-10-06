@@ -14,9 +14,12 @@
     <body>
         <h1>Login</h1>
         <form action="login" method="post">
-        Username: <input type="text" name="username">
-        <br>
-        Password: <input type="text" name="password">
-        <input type="submit" value="Submit">
+            Username: <input type="text" name="username" value="${username}">
+            <br>
+            Password: <input type="text" name="password" value="${password}">
+            <br>
+            ${message} <br>
+            <input type="submit" value="Log in">
+        </form>
     </body>
 </html>
